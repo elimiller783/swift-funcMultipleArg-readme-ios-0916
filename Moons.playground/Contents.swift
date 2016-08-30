@@ -41,3 +41,10 @@ planetDescription(planet, numberOfMoons: moons)
 planet = "Mars"
 moons = 2
 planetDescription(planet, numberOfMoons: moons)
+
+func planetDescription2(planet: String, numberOfRings: Int) {
+    print("There are \(numberOfRings) around planet \(planet)")
+}
+planetDescription2("saturn", numberOfRings: 2)
+
+
